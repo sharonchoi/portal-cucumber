@@ -98,7 +98,7 @@ Feature: Documets and Media Core
 		Then certain users should not be able to access those documents
 
 	@persona-site_administrator
-	Scenario: Site Administrators should be able to restrict access to fodlers
+	Scenario: Site Administrators should be able to restrict access to folders
 		Given a folder has been created
 		When I am logged in as a site administrator
 			And I restrict access to that folder
