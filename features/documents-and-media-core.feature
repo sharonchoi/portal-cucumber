@@ -32,7 +32,7 @@ Feature: Documets and Media Core
 	Scenario: Site Members should be able to create subfolders
 		Given a folder has been created
 		When I am logged in as a site member
-		Then I should be able to create a subfolder	inside of that folder
+		Then I should be able to create a subfolder inside of that folder
 
 	@persona-site_member
 	Scenario: Site Members should be able to view text documents
